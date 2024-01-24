@@ -1,0 +1,131 @@
+.mobile {
+    background: #010225;
+}
+
+.mobile__wrap-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 633.61px;
+    width: 100%;
+    padding: 180px;
+    position: relative;
+    left: -150px;
+}
+
+.mobile__wrap-title-logo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #159BE8;
+    margin-bottom: 28px;
+}
+
+.mobile__wrap-title-manage {
+    max-width: 456px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    color: white;
+    font-family: 'LeagueSpartan-Regular', sans-serif;
+    margin-bottom: 8px;
+}
+
+.mobile__wrap-title-txt {
+    max-width: 617px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.mobile__wrap-title-benefit-box {
+    height: 136px;
+    max-width: 633.61px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.benefit__img {
+    margin-bottom: 12px;
+}
+
+.mobile__wrap-title-benefit-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.mobile__wrap-title-benefit-txt {
+    color: white;
+    max-width: 269px;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mobile__get {
+    position: relative;
+    display: inline-flex;
+    width: 164px;
+}
+
+.mobile__get-txt {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    z-index: 2;
+    width: 164px;
+    height: 48px;
+    background: #159BE8;
+    border-radius: 100px;
+    border: 2px solid #159BE8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s linear;
+    color: white;
+    border: none;
+    z-index: 4;
+}
+
+.mobile__get-txt:hover {
+    background: #ffffff;
+    color: #159BE8;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mobile__get-img {
+    position: absolute;
+    top: -6px;
+    right: -50px;
+    z-index: 1;
+}
+.mobile__wrap{
+    display: flex;
+}
+.mobile__img{
+    position: relative;
+    display: flex;
+    height: 701.39px;
+}
+.mobile-img1{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+.mobile-img2{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
